@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+
+@media(min-width:768px){
+	.brandName{
+		padding-left:35px;
+		font-size:25px;
+	}
+
+
+	.brandName:before {
+		font-family: FontAwesome;
+		content:"\f015";
+		position: absolute;
+		top: 18px;
+		left: -30px;
+		transition: all 200ms ease;
+	}
+
+	.brandName:hover{
+		border-bottom: .4px solid white;
+	}
+	.brandName:hover:before {
+		left: 13px;
+	}
+	.icon{
+		padding:10px !important;
+	}
+}
+
+@media(max-width:767px){
+	.brandName{
+		font-weight:500;
+	}
+	.icon{
+		margin-right:20px;
+		padding:10 !important;
+	}
+	.Sign-up-form{
+		margin-top:10px !important;
+	}
+
+}
+
+.sign-up-main {
+
+	  margin: 0;
+	  padding:0;
+	  min-height: 100vh;
+	  background-image: url(https://sqy7rm.media.zestyio.com/background-polygons-2x.png), 
+ 	  linear-gradient(-134deg,#203a45 1%,#202345 97%);
+	  background-size: cover;
+	  font-family: sans-serif;
+	  color:white !important;
+	  overflow-x:hidden;
+ }
+
+.white-text{
+	max-width:350px;
+	margin:auto;
+}
+
+.Sign-up-form{
+	padding-bottom:20px !important;
+}
+
+.main-container{
+	margin-top:20px;
+}
+
+.icon:hover{
+	padding-bottom:3px;
+	border-bottom:.2px solid white;
+}
+
+input{
+	padding-left:10px !important;
+	color:white !important;
+}

@@ -1,0 +1,11 @@
+.content-table{
+	max-width: 80vw;
+	padding:10px;
+	margin:80px auto;
+}
+
+.t-head {
+	text-align: center;
+	color:white !important;
+	font-weight: bold;
+}

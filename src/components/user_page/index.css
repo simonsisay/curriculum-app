@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Antic+Slab');
+
+@media(min-width:768px){
+	.brandName{
+		padding-left:35px;
+		padding-bottom:0px !important;
+	}
+
+
+	.brandName:before {
+		font-family: FontAwesome;
+		content:"\f015";
+		position: absolute !important;
+		left: -30px !important;
+		top:16px !important;
+		transition: all 200ms ease;
+	}
+
+	.brandName:hover{
+		border-bottom: .3px solid white !important;
+	}
+	.brandName:hover:before {
+		left: 13px !important;
+	}
+}
+
+
+.user-navbar{
+	padding:7px !important;
+	background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+.nav-brand{
+	margin-left:40px;
+}
+
+.brandName{
+	font-family: 'Antic Slab', serif;
+}
+
+.drop-menu{
+	margin-right:50px !important;
+	text-align: center !important; 
+}
+
+.dropdown{
+	margin-right:20px !important;
+}
+.drop-item{
+	padding:5px 5px 5px 10px !important;
+}
+
+.drop-item:hover{
+	background:lightgray !important;
+}
+
+.progress {
+	margin:auto;
+	width:65vw !important;
+}
+
+.progress-container{
+	margin:20px auto;
+}
+
+.pick h1{
+	margin:50px auto;
+	text-align: center;
+	font-weight: bold !important;
+	font-family: 'Antic Slab', serif;
+}
+
+.card{
+	margin:10px;
+	padding:0 !important;
+}
+
+.cardList{
+	padding-bottom:50px !important;
+}
+
+.main-card{
+	margin-bottom:50px;
+}
+
+.userName{
+	padding:6px;
+}
+
+.avatar{
+	padding:5px;
+}
+
+nav{
+	border:none !important;
+}
+
+.user-navbar .nav-item:hover{
+	border-bottom: none !important;
+}

@@ -1,0 +1,26 @@
+.not-found{
+	background-image: url(https://sqy7rm.media.zestyio.com/background-polygons-2x.png), 
+   linear-gradient(-134deg,#203a45 1%,#202345 97%);
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	text-align:center;
+}
+
+.not-found a{	
+	padding-top:15px;
+	font-size:24px;
+	padding-bottom:5px;
+	font-style: italic;
+	color:darkorange;
+}
+
+.not-found a:hover{
+	border:.4px solid white;
+	padding:10px;
+	color:white;
+}
