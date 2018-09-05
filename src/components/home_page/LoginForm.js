@@ -30,7 +30,7 @@ class LoginForm extends React.Component  {
                   <Input className="input" label="Password" icon="lock" group type="password" validate/>
                 </div>
                 <div className="login-button text-center">
-                  <Button className="btn-blue" >Sign in</Button>
+                  <Button className="btn-blue" ><Link to="/user">Sign in</Link></Button>
                 </div>
                 <div className="forgot-pass">
                   <p>Not a memeber <Link to="/signUp">Sign up</Link></p>

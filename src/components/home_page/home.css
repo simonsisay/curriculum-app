@@ -104,6 +104,10 @@ html, body{
 	height: 100%;
 }
 
+input:-webkit-autofill {
+    -webkit-box-shadow:darkblue !important;
+}
+
 .main{
   margin: 0;
   padding:0;
@@ -162,6 +166,9 @@ html, body{
 		cursor: pointer !important;
 }
 
+button a{
+	color:white !important;
+}
 .explore:hover{
 	 border-radius: 10px;
   	 box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
